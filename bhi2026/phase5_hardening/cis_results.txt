@@ -1,0 +1,32 @@
+========================================================================
+PRE-SUBMISSION HARDENING — uncertainty panel for flow-level statistics
+========================================================================
+
+MAIN RESULT  JUROR vs Method C  (n=24 flows, complete enumeration of
+             above-threshold top-3 transport edges)
+  Spearman rho = 0.713   95% CI Fisher (0.434, 0.867)  boot (0.422, 0.876)
+  Pearson  r   = 0.749   95% CI Fisher (0.495, 0.885)  boot (0.529, 0.874)
+
+BASELINE     cosine-centroid vs Method C  (n=24)
+  Pearson  r   = 0.741   95% CI Fisher (0.482, 0.881)
+  Spearman rho = 0.632
+
+ACCURACY PARITY (the honest finding):
+  Delta Pearson (JUROR - cosine) = +0.008
+  bootstrap 95% CI on Delta = (-0.145, +0.172)  -> straddles 0 => statistical tie.
+  => JUROR MATCHES the free baseline on accuracy; the contribution is the
+     structured rubric rating + methodology flag + justification (evaluate separately).
+
+POWER / SCOPE EXTENSION  top-5 pooled flows with Method C coverage  (n=27)
+  (Method C pairs were sampled by cosine bucket, not by flow; 24 of 24 top-3
+   flows are covered, plus 3 of the additional top-4/5 flows.)
+  Spearman rho = 0.738   95% CI Fisher (0.498, 0.873)
+  Pearson  r   = 0.721   95% CI Fisher (0.47, 0.864)
+  => correlation STABLE when the cut is relaxed; lower CI bound tightens.
+
+CROSS-LLM ROBUSTNESS  GPT-5.4-mini vs Claude Sonnet 4.6  (n=24)
+  Spearman rho = 0.552   95% CI Fisher (0.191, 0.781)
+  exact agreement = 13/24 (54.2%);  within-1 = 100%
+  systematic offset (GPT - Claude) = +0.29 pts   paired t p=0.032, Wilcoxon p=0.035
+  => offset is a CALIBRATION shift, not a ranking disagreement (rho positive,
+     within-1 = 100%). Report rank correlation, not exact agreement, on a 0-4 scale.

@@ -1,0 +1,20 @@
+% Paste-ready CI fragments -- ADAPT to the current Overleaf table structure.
+% Macro for a correlation + 95% CI cell:
+\newcommand{\ci}[2]{#1 \scriptsize{[#2]}}
+
+% JUROR vs Method C (n=24)
+% Spearman: 0.71 [0.43, 0.87]     Pearson: 0.75 [0.50, 0.89]
+% cosine baseline vs Method C (n=24)
+% Pearson: 0.74 [0.48, 0.88]
+% Delta Pearson (JUROR-cosine) = +0.008, bootstrap 95\% CI [-0.15, +0.17] (includes 0)
+% Top-5 pooled (n=27): Spearman 0.74 [0.50, 0.87], Pearson 0.72 [0.47, 0.86]
+% Cross-LLM (n=24): Spearman 0.55 [0.19, 0.78], within-1 100\%, offset +0.29 pt
+
+% Example sentence for the main result:
+JUROR's flow ratings track the Method~C pair-rating means at
+$\rho=0.71$ (95\% CI [0.43, 0.87]; $r=0.75$, [0.50, 0.89]; $n=24$),
+statistically indistinguishable from a cosine-centroid baseline
+($r=0.74$, [0.48, 0.88]; $\Delta r=+0.01$, bootstrap 95\% CI $[-0.15,+0.17]$),
+confirming that JUROR's value lies in its structured, auditable output rather than
+in predictive accuracy. The association is stable when the transport cut is relaxed
+to the covered top-5 edges ($\rho=0.74$, [0.50, 0.87]; $n=27$).
