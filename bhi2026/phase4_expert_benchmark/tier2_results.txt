@@ -1,0 +1,32 @@
+Tier-2: Method C vs adjudicated gold standard   (n=99; pair_007 excluded — no Method C rating)
+
+=== RATING (0-4) ===
+  Pearson r        : +0.688   target >=0.60   [PASS]
+  Spearman rho     : +0.656
+  Cohen kappa (unw): +0.351   target >=0.50   [FAIL]
+  Cohen kappa (quad): +0.661
+  Gwet AC2 (linear): +0.774
+  Exact agreement  : 57.6%
+  Within-1 agreement: 96.0%   target >=80%   [PASS]
+
+  TIER-2 VERDICT: PARTIAL/FAIL  (Pearson PASS, kappa FAIL, within-1 PASS)
+
+  Confusion (rows=gold adjudicated, cols=Method C):
+             0    1    2    3    4
+    G=0    34    8    0    0    0
+    G=1    16    9    4    0    0
+    G=2     3    5   14    0    0
+    G=3     0    1    5    0    0
+    G=4     0    0    0    0    0
+
+=== METHODOLOGY (no/partial/yes)  n=99 ===
+  Cohen kappa      : +0.473
+  Gwet AC1         : +0.767
+  Exact agreement  : 80.8%
+
+=== SENSITIVITY: re-adjudicate the 8 hard pairs ===
+  scenario           n  Pearson   kappa  within1   verdict
+  frozen rule       99   +0.688  +0.351    96.0%   partial (r:P k:F w:P)
+  R1 wins all 8     99   +0.585  +0.301    90.9%   partial (r:F k:F w:P)
+  R2 wins all 8     99   +0.683  +0.364    96.0%   partial (r:P k:F w:P)
+  drop the 8        91   +0.699  +0.335    96.7%   partial (r:P k:F w:P)

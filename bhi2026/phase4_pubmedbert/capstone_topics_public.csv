@@ -1,0 +1,11 @@
+Topic,Count,Name,Representation
+-1,61,-1_drug_cancer_dementia_people,"['drug', 'cancer', 'dementia', 'people', 'learning objectives', 'practicum outcomes', 'disease', 'preceptor', 'et', 'different']"
+0,42,0_openhie_sql_learning objectives_preceptor,"['openhie', 'sql', 'learning objectives', 'preceptor', 'practicum outcomes', 'course', 'global', 'health information', '[ORG]', 'institute']"
+1,37,1_emr_database_ai_frontend,"['emr', 'database', 'ai', 'frontend', '[ORG]', 'backend', 'user', '[ORG]', 'integration', 'electronic']"
+2,36,2_pathology_extraction_pathology reports_machine,"['pathology', 'extraction', 'pathology reports', 'machine', 'machine learning', 'text', 'pdf', 'parameters', 'automated', 'data extraction']"
+3,34,3_autism_hands_hands autism_asd,"['autism', 'hands', 'hands autism', 'asd', 'dr', '[PERSON]', '[PERSON]', '[PERSON]', '[PERSON]', 'center']"
+4,22,4_spss_depression_statistical_sciences,"['spss', 'depression', 'statistical', 'sciences', 'physical', 'regression', 'mental', 'linear', 'variables', 'linear regression']"
+5,21,5_dhis2_social_[ORG],"['dhis2', 'social', '[ORG]', '[ORG]', 'community health', 'week', 'visualization', 'public', 'county', 'disparities']"
+6,14,6_phd_autism_redcap_[PERSON],"['phd', 'autism', 'redcap', '[PERSON]', 'hands', '[PERSON]', 'standardization', '[ORG]', '[PERSON]', '[PERSON]']"
+7,11,7_emr_database_frontend_mysql,"['emr', 'database', 'frontend', 'mysql', 'backend', 'tables', 'user', 'record', 'reactjs', '[PERSON]']"
+8,10,8_telemedicine_2019_figure_et,"['telemedicine', '2019', 'figure', 'et', 'activities', 'al', 'physical', '2018', 'et al', 'pregnancy']"

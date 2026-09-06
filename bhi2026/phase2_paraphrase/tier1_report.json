@@ -1,0 +1,26 @@
+{
+  "n_items": 60,
+  "method_a": {
+    "mean_cosine_all": 0.9281533165110483,
+    "median_cosine_all": 0.9327189922332764,
+    "min_cosine_all": 0.7625249624252319,
+    "std_cosine_all": 0.04204453226535827,
+    "mean_cosine_P1": 0.9638251503308614,
+    "mean_cosine_P2": 0.9066072811683019,
+    "mean_cosine_P3": 0.9140275180339813,
+    "n_pairs": 180,
+    "passes_tier1": true
+  },
+  "method_b": {
+    "agreement_overall": 0.7,
+    "n_pairs": 180,
+    "agreement_per_prompt": {
+      "P1": 0.7333333333333333,
+      "P2": 0.65,
+      "P3": 0.7166666666666667
+    },
+    "js_orig_vs_paraphrase_distribution": 0.017208584662722078,
+    "passes_tier1_agreement": false,
+    "passes_tier1_js": true
+  }
+}

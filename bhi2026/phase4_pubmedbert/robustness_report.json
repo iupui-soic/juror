@@ -1,0 +1,36 @@
+{
+  "embed_model_robustness": "pritamdeka/S-PubMedBert-MS-MARCO",
+  "embed_dim_bge": 1024,
+  "embed_dim_pubmedbert": 768,
+  "pairwise_cosine_spearman_caps": 0.6507582743027067,
+  "pairwise_cosine_pearson_caps": 0.7670116727028012,
+  "pubmedbert": {
+    "n_capstone_topics": 9,
+    "n_journal_topics": 88,
+    "n_capstone_outliers": 61,
+    "n_journal_outliers": 3635,
+    "w1_distance": 0.030627171158537404,
+    "alignment_score_exp": 0.47349836843480697,
+    "method_d_mean_rating": 0.88,
+    "method_d_rating_distribution": {
+      "0": 8,
+      "1": 13,
+      "2": 3,
+      "3": 1
+    }
+  },
+  "bge_large_baseline": {
+    "n_capstone_topics": 8,
+    "n_journal_topics": 106,
+    "n_capstone_outliers": 53,
+    "n_journal_outliers": 3259,
+    "w1_distance": 0.17093063338293657,
+    "alignment_score_exp": 0.4279559852044192,
+    "method_d_mean_rating": 0.9166666666666666,
+    "method_d_rating_distribution": {
+      "0": 6,
+      "1": 14,
+      "2": 4
+    }
+  }
+}
