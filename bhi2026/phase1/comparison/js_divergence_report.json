@@ -1,0 +1,300 @@
+{
+  "n_capstone": 287,
+  "n_journal": 10374,
+  "n_boot": 2000,
+  "n_perm": 1000,
+  "rng_seed": 42,
+  "log_base": 2,
+  "domains": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9",
+    "D10"
+  ],
+  "js_top1": {
+    "observed": 0.12468118258181352,
+    "boot_mean": 0.12873426225563236,
+    "ci_lo": 0.09694628388966471,
+    "ci_hi": 0.1614291730502932
+  },
+  "js_soft": {
+    "observed": 0.016885184052807478,
+    "boot_mean": 0.016917229416632276,
+    "ci_lo": 0.01598869339771965,
+    "ci_hi": 0.017819245355806354
+  },
+  "h2_permutation_test": {
+    "observed_js": 0.12468118258181352,
+    "null_mean": 0.006669691058561523,
+    "null_std": 0.0029004800386717546,
+    "null_95th": 0.012316421947925217,
+    "p_value_one_sided": 0.0,
+    "n_perm": 1000
+  },
+  "per_domain_delta": {
+    "D1": {
+      "domain": "D1",
+      "label": "Health Sci",
+      "delta": 0.010483525887890463,
+      "ci_lo": -0.011771925122374412,
+      "ci_hi": 0.03622365011967065,
+      "bonf_ci_lo": -0.018452104698895456,
+      "bonf_ci_hi": 0.04910071849417164,
+      "significant_bonferroni": false
+    },
+    "D2": {
+      "domain": "D2",
+      "label": "HIT",
+      "delta": 0.03590825092750639,
+      "ci_lo": 0.005219310001081507,
+      "ci_hi": 0.0680382946108235,
+      "bonf_ci_lo": -0.010068981083101754,
+      "bonf_ci_hi": 0.08370628729422076,
+      "significant_bonferroni": false
+    },
+    "D3": {
+      "domain": "D3",
+      "label": "Soc/Beh",
+      "delta": 0.02159479373856781,
+      "ci_lo": 0.0044623754508221775,
+      "ci_hi": 0.04230792741704167,
+      "bonf_ci_lo": 0.0004958397400631032,
+      "bonf_ci_hi": 0.04985686542811066,
+      "significant_bonferroni": true
+    },
+    "D4": {
+      "domain": "D4",
+      "label": "InfoSci/CS",
+      "delta": 0.02390826973625433,
+      "ci_lo": 0.00968180300657836,
+      "ci_hi": 0.04152266219018466,
+      "bonf_ci_lo": 0.0030021054042235046,
+      "bonf_ci_hi": 0.051397977824486185,
+      "significant_bonferroni": true
+    },
+    "D5": {
+      "domain": "D5",
+      "label": "Data Analytics",
+      "delta": -0.3307823968927948,
+      "ci_lo": -0.3847754353049604,
+      "ci_hi": -0.2772072653491139,
+      "bonf_ci_lo": -0.4056697677589847,
+      "bonf_ci_hi": -0.25353692627441,
+      "significant_bonferroni": true
+    },
+    "D6": {
+      "domain": "D6",
+      "label": "Leadership",
+      "delta": 0.10508917697621165,
+      "ci_lo": 0.050311578665237194,
+      "ci_hi": 0.15812549666850043,
+      "bonf_ci_lo": 0.03522311877254109,
+      "bonf_ci_hi": 0.1840317667997386,
+      "significant_bonferroni": true
+    },
+    "D7": {
+      "domain": "D7",
+      "label": "Trans Bioinf",
+      "delta": 0.022462347237700256,
+      "ci_lo": 0.0051371392834807465,
+      "ci_hi": 0.04065510869105221,
+      "bonf_ci_lo": 0.0008814190730108573,
+      "bonf_ci_hi": 0.053917627088358795,
+      "significant_bonferroni": true
+    },
+    "D8": {
+      "domain": "D8",
+      "label": "Clinical Inf",
+      "delta": 0.11870200830406222,
+      "ci_lo": 0.08200596472419322,
+      "ci_hi": 0.15683915464082346,
+      "bonf_ci_lo": 0.06682205631339135,
+      "bonf_ci_hi": 0.17204048465441307,
+      "significant_bonferroni": true
+    },
+    "D9": {
+      "domain": "D9",
+      "label": "Public Health",
+      "delta": 0.003608928512651235,
+      "ci_lo": -0.006651243493348756,
+      "ci_hi": 0.017259436113736485,
+      "bonf_ci_lo": -0.00838635049161365,
+      "bonf_ci_hi": 0.024515092844682066,
+      "significant_bonferroni": false
+    },
+    "D10": {
+      "domain": "D10",
+      "label": "Consumer Health",
+      "delta": -0.010974904428049485,
+      "ci_lo": -0.016194331983805668,
+      "ci_hi": -0.002271156314802014,
+      "bonf_ci_lo": -0.017447946790052054,
+      "bonf_ci_hi": 0.00315781832630362,
+      "significant_bonferroni": false
+    }
+  },
+  "inter_journal": {
+    "pairs": [
+      {
+        "a": "ACI",
+        "b": "IJMI",
+        "js": 0.0553398665851296
+      },
+      {
+        "a": "ACI",
+        "b": "JAMIA",
+        "js": 0.04268753176456104
+      },
+      {
+        "a": "ACI",
+        "b": "JBHI",
+        "js": 0.3251432968394028
+      },
+      {
+        "a": "ACI",
+        "b": "JBI",
+        "js": 0.16808986306887908
+      },
+      {
+        "a": "ACI",
+        "b": "JMIR",
+        "js": 0.06177624822132512
+      },
+      {
+        "a": "ACI",
+        "b": "LancetDigitalHealth",
+        "js": 0.22178687079558745
+      },
+      {
+        "a": "ACI",
+        "b": "npjDigitalMed",
+        "js": 0.21754838364331663
+      },
+      {
+        "a": "IJMI",
+        "b": "JAMIA",
+        "js": 0.02320141198518974
+      },
+      {
+        "a": "IJMI",
+        "b": "JBHI",
+        "js": 0.1549840995892403
+      },
+      {
+        "a": "IJMI",
+        "b": "JBI",
+        "js": 0.048746521804845185
+      },
+      {
+        "a": "IJMI",
+        "b": "JMIR",
+        "js": 0.016415400560085145
+      },
+      {
+        "a": "IJMI",
+        "b": "LancetDigitalHealth",
+        "js": 0.14902175951243274
+      },
+      {
+        "a": "IJMI",
+        "b": "npjDigitalMed",
+        "js": 0.09066887804321694
+      },
+      {
+        "a": "JAMIA",
+        "b": "JBHI",
+        "js": 0.17812893638884683
+      },
+      {
+        "a": "JAMIA",
+        "b": "JBI",
+        "js": 0.06531829506933973
+      },
+      {
+        "a": "JAMIA",
+        "b": "JMIR",
+        "js": 0.03816252154462418
+      },
+      {
+        "a": "JAMIA",
+        "b": "LancetDigitalHealth",
+        "js": 0.09516740957495355
+      },
+      {
+        "a": "JAMIA",
+        "b": "npjDigitalMed",
+        "js": 0.08443983325213325
+      },
+      {
+        "a": "JBHI",
+        "b": "JBI",
+        "js": 0.038608522702195586
+      },
+      {
+        "a": "JBHI",
+        "b": "JMIR",
+        "js": 0.20561054732973155
+      },
+      {
+        "a": "JBHI",
+        "b": "LancetDigitalHealth",
+        "js": 0.171476996410912
+      },
+      {
+        "a": "JBHI",
+        "b": "npjDigitalMed",
+        "js": 0.03836063551953972
+      },
+      {
+        "a": "JBI",
+        "b": "JMIR",
+        "js": 0.08178085775369656
+      },
+      {
+        "a": "JBI",
+        "b": "LancetDigitalHealth",
+        "js": 0.11014790381119363
+      },
+      {
+        "a": "JBI",
+        "b": "npjDigitalMed",
+        "js": 0.01902311018890973
+      },
+      {
+        "a": "JMIR",
+        "b": "LancetDigitalHealth",
+        "js": 0.1405384341626309
+      },
+      {
+        "a": "JMIR",
+        "b": "npjDigitalMed",
+        "js": 0.11533476759309341
+      },
+      {
+        "a": "LancetDigitalHealth",
+        "b": "npjDigitalMed",
+        "js": 0.07290259268295264
+      }
+    ],
+    "mean_js": 0.10822898201421303,
+    "median_js": 0.0875543556476751,
+    "min_js": 0.016415400560085145,
+    "max_js": 0.3251432968394028
+  },
+  "random_split_journals": {
+    "mean_js": 0.0006886032699395547,
+    "ci_lo": 0.00018605680783474648,
+    "ci_hi": 0.0014340046764026468
+  },
+  "random_split_capstones": {
+    "mean_js": 0.024771442548876837,
+    "ci_lo": 0.008457900898300704,
+    "ci_hi": 0.050943118087059064
+  }
+}

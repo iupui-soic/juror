@@ -1,0 +1,6 @@
+experiment,JS_mean,CI_lo,CI_hi,n
+Observed (capstone vs journals),0.1247,0.0969,0.1614,2000
+H2 permutation null (pool then random-split),0.0067,0.0022,0.0137,1000
+Random-split within journals,0.0007,0.0002,0.0014,200
+Random-split within capstones,0.0248,0.0085,0.0509,200
+Inter-journal pairs (mean),0.1082,0.0164,0.3251,28

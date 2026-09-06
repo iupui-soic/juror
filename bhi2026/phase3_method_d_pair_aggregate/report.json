@@ -1,0 +1,17 @@
+{
+  "n_pair_calls": 215,
+  "n_flows_evaluated": 24,
+  "n_flows_matched_with_method_c": 24,
+  "spearman_vs_method_c": 0.3112291225378132,
+  "pearson_vs_method_c": 0.42040219429039527,
+  "method_d_pair_agg_mean": 0.7453833333333334,
+  "method_c_mean_of_means": 0.7821416666666666,
+  "comparison_with_main_method_d": {
+    "main_spearman": 0.712830592684752,
+    "main_pearson": 0.7491280712114186,
+    "pair_agg_spearman": 0.3112291225378132,
+    "pair_agg_pearson": 0.42040219429039527,
+    "spearman_delta": -0.4016014701469388,
+    "pearson_delta": -0.3287258769210233
+  }
+}

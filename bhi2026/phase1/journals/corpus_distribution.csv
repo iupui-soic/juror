@@ -1,0 +1,11 @@
+domain_id,domain_label,mean_sigmoid,weighted_share,top1_share_all,top1_share_core,top1_share_digital_health,top1_share_2020,top1_share_2021,top1_share_2022,top1_share_2023,top1_share_2024,top1_share_2025
+D1,Health Sciences,0.5654,0.1112,0.0313,0.0145,0.0601,0.0309,0.0366,0.0322,0.0345,0.0304,0.0248
+D2,Health Information Science and Technology,0.5577,0.1097,0.0477,0.0564,0.0329,0.0706,0.0589,0.0502,0.0391,0.0374,0.035
+D3,Social and Behavioral Aspects of Health,0.2696,0.053,0.0028,0.0008,0.0063,0.0038,0.0018,0.005,0.0035,0.0029,0.0005
+D4,Information Science and Technology,0.3285,0.0646,0.0005,0.0003,0.0008,0.0013,0.0006,0.0,0.0006,0.0006,0.0
+D5,"Data Analytics, Decision-Making, and Discovery",0.8186,0.161,0.6513,0.6611,0.6347,0.6066,0.6258,0.6543,0.6552,0.6513,0.701
+D6,"Leadership, Professionalism, Project Management, Ethics, and Strategic Thinking",0.7293,0.1434,0.2329,0.2387,0.2229,0.2339,0.239,0.2255,0.2395,0.2482,0.2146
+D7,Translational Bioinformatics,0.4123,0.0811,0.0019,0.0005,0.0044,0.0025,0.0,0.0025,0.0023,0.0035,0.001
+D8,Clinical Informatics,0.5427,0.1067,0.0102,0.0145,0.0029,0.012,0.0096,0.0112,0.0075,0.0093,0.0117
+D9,Public Health Informatics,0.4918,0.0967,0.0068,0.0055,0.0091,0.0151,0.006,0.0062,0.0052,0.0076,0.0024
+D10,Consumer Health Informatics,0.3698,0.0727,0.0145,0.0078,0.0259,0.0233,0.0216,0.013,0.0127,0.0088,0.0092

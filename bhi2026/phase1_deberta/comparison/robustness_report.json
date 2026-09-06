@@ -1,0 +1,242 @@
+{
+  "n_capstones": 287,
+  "n_journals": 10374,
+  "spearman_capstones": {
+    "rho": 0.4800204510110798,
+    "p": 0.16029117663441547
+  },
+  "spearman_journals": {
+    "rho": 0.38181818181818183,
+    "p": 0.27625533338543595
+  },
+  "agreement_rate_capstones": 0.1986062717770035,
+  "agreement_rate_journals": 0.24127626759205706,
+  "cohen_kappa_capstones": 0.09655785944022445,
+  "cohen_kappa_journals": 0.10452766625678257,
+  "js_bart_capstone_vs_journal": 0.12468118258181352,
+  "js_deberta_capstone_vs_journal": 0.14879912574946627,
+  "per_corpus_per_domain": [
+    {
+      "corpus": "capstones",
+      "domain": "D1",
+      "short": "Health Sci",
+      "bart_top1": 0.0418,
+      "deberta_top1": 0.223,
+      "delta_model": 0.1812
+    },
+    {
+      "corpus": "capstones",
+      "domain": "D2",
+      "short": "HIT",
+      "bart_top1": 0.0836,
+      "deberta_top1": 0.3066,
+      "delta_model": 0.223
+    },
+    {
+      "corpus": "capstones",
+      "domain": "D3",
+      "short": "Soc/Beh",
+      "bart_top1": 0.0244,
+      "deberta_top1": 0.0035,
+      "delta_model": -0.0209
+    },
+    {
+      "corpus": "capstones",
+      "domain": "D4",
+      "short": "InfoSci/CS",
+      "bart_top1": 0.0244,
+      "deberta_top1": 0.1916,
+      "delta_model": 0.1672
+    },
+    {
+      "corpus": "capstones",
+      "domain": "D5",
+      "short": "Data Analytics",
+      "bart_top1": 0.3206,
+      "deberta_top1": 0.1986,
+      "delta_model": -0.122
+    },
+    {
+      "corpus": "capstones",
+      "domain": "D6",
+      "short": "Leadership",
+      "bart_top1": 0.338,
+      "deberta_top1": 0.0139,
+      "delta_model": -0.324
+    },
+    {
+      "corpus": "capstones",
+      "domain": "D7",
+      "short": "Trans Bioinf",
+      "bart_top1": 0.0244,
+      "deberta_top1": 0.007,
+      "delta_model": -0.0174
+    },
+    {
+      "corpus": "capstones",
+      "domain": "D8",
+      "short": "Clinical Inf",
+      "bart_top1": 0.1289,
+      "deberta_top1": 0.0348,
+      "delta_model": -0.0941
+    },
+    {
+      "corpus": "capstones",
+      "domain": "D9",
+      "short": "Public Health",
+      "bart_top1": 0.0105,
+      "deberta_top1": 0.0174,
+      "delta_model": 0.007
+    },
+    {
+      "corpus": "capstones",
+      "domain": "D10",
+      "short": "Consumer Health",
+      "bart_top1": 0.0035,
+      "deberta_top1": 0.0035,
+      "delta_model": 0.0
+    },
+    {
+      "corpus": "journals",
+      "domain": "D1",
+      "short": "Health Sci",
+      "bart_top1": 0.0313,
+      "deberta_top1": 0.593,
+      "delta_model": 0.5617
+    },
+    {
+      "corpus": "journals",
+      "domain": "D2",
+      "short": "HIT",
+      "bart_top1": 0.0477,
+      "deberta_top1": 0.1186,
+      "delta_model": 0.0709
+    },
+    {
+      "corpus": "journals",
+      "domain": "D3",
+      "short": "Soc/Beh",
+      "bart_top1": 0.0028,
+      "deberta_top1": 0.0015,
+      "delta_model": -0.0013
+    },
+    {
+      "corpus": "journals",
+      "domain": "D4",
+      "short": "InfoSci/CS",
+      "bart_top1": 0.0005,
+      "deberta_top1": 0.032,
+      "delta_model": 0.0315
+    },
+    {
+      "corpus": "journals",
+      "domain": "D5",
+      "short": "Data Analytics",
+      "bart_top1": 0.6513,
+      "deberta_top1": 0.1956,
+      "delta_model": -0.4558
+    },
+    {
+      "corpus": "journals",
+      "domain": "D6",
+      "short": "Leadership",
+      "bart_top1": 0.2329,
+      "deberta_top1": 0.002,
+      "delta_model": -0.2309
+    },
+    {
+      "corpus": "journals",
+      "domain": "D7",
+      "short": "Trans Bioinf",
+      "bart_top1": 0.0019,
+      "deberta_top1": 0.0043,
+      "delta_model": 0.0024
+    },
+    {
+      "corpus": "journals",
+      "domain": "D8",
+      "short": "Clinical Inf",
+      "bart_top1": 0.0102,
+      "deberta_top1": 0.0247,
+      "delta_model": 0.0145
+    },
+    {
+      "corpus": "journals",
+      "domain": "D9",
+      "short": "Public Health",
+      "bart_top1": 0.0068,
+      "deberta_top1": 0.0101,
+      "delta_model": 0.0033
+    },
+    {
+      "corpus": "journals",
+      "domain": "D10",
+      "short": "Consumer Health",
+      "bart_top1": 0.0145,
+      "deberta_top1": 0.0181,
+      "delta_model": 0.0037
+    }
+  ],
+  "per_domain_delta": [
+    {
+      "domain": "D1",
+      "short": "Health Sci",
+      "delta_bart": 0.0105,
+      "delta_deberta": -0.37
+    },
+    {
+      "domain": "D2",
+      "short": "HIT",
+      "delta_bart": 0.0359,
+      "delta_deberta": 0.1881
+    },
+    {
+      "domain": "D3",
+      "short": "Soc/Beh",
+      "delta_bart": 0.0216,
+      "delta_deberta": 0.0019
+    },
+    {
+      "domain": "D4",
+      "short": "InfoSci/CS",
+      "delta_bart": 0.0239,
+      "delta_deberta": 0.1596
+    },
+    {
+      "domain": "D5",
+      "short": "Data Analytics",
+      "delta_bart": -0.3308,
+      "delta_deberta": 0.003
+    },
+    {
+      "domain": "D6",
+      "short": "Leadership",
+      "delta_bart": 0.1051,
+      "delta_deberta": 0.0119
+    },
+    {
+      "domain": "D7",
+      "short": "Trans Bioinf",
+      "delta_bart": 0.0225,
+      "delta_deberta": 0.0026
+    },
+    {
+      "domain": "D8",
+      "short": "Clinical Inf",
+      "delta_bart": 0.1187,
+      "delta_deberta": 0.0102
+    },
+    {
+      "domain": "D9",
+      "short": "Public Health",
+      "delta_bart": 0.0036,
+      "delta_deberta": 0.0073
+    },
+    {
+      "domain": "D10",
+      "short": "Consumer Health",
+      "delta_bart": -0.011,
+      "delta_deberta": -0.0146
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+corpus,domain,short,bart_top1,deberta_top1,delta_model
+capstones,D1,Health Sci,0.0418,0.223,0.1812
+capstones,D2,HIT,0.0836,0.3066,0.223
+capstones,D3,Soc/Beh,0.0244,0.0035,-0.0209
+capstones,D4,InfoSci/CS,0.0244,0.1916,0.1672
+capstones,D5,Data Analytics,0.3206,0.1986,-0.122
+capstones,D6,Leadership,0.338,0.0139,-0.324
+capstones,D7,Trans Bioinf,0.0244,0.007,-0.0174
+capstones,D8,Clinical Inf,0.1289,0.0348,-0.0941
+capstones,D9,Public Health,0.0105,0.0174,0.007
+capstones,D10,Consumer Health,0.0035,0.0035,0.0
+journals,D1,Health Sci,0.0313,0.593,0.5617
+journals,D2,HIT,0.0477,0.1186,0.0709
+journals,D3,Soc/Beh,0.0028,0.0015,-0.0013
+journals,D4,InfoSci/CS,0.0005,0.032,0.0315
+journals,D5,Data Analytics,0.6513,0.1956,-0.4558
+journals,D6,Leadership,0.2329,0.002,-0.2309
+journals,D7,Trans Bioinf,0.0019,0.0043,0.0024
+journals,D8,Clinical Inf,0.0102,0.0247,0.0145
+journals,D9,Public Health,0.0068,0.0101,0.0033
+journals,D10,Consumer Health,0.0145,0.0181,0.0037

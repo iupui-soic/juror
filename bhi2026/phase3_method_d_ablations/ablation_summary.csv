@@ -1,0 +1,5 @@
+variant,n_matched,spearman_vs_method_c,pearson_vs_method_c
+method_d_main,24,0.7128,0.7491
+ablation_A_keywords_only,24,0.6428,0.7003
+ablation_B_top5_full,27,0.7381,0.7214
+ablation_C_cosine_only,24,0.6316,0.7413

@@ -1,0 +1,41 @@
+# ── Secrets & environment ─────────────────────────────────────────────
+.env
+
+# ── IRB-restricted capstone corpus and any file carrying capstone text,
+#    source filenames, or person names (available on request per the
+#    data-availability statement; never committed) ─────────────────────
+raw_data/
+analysis/
+*.zip
+*.docx
+bhi2026/sections/
+bhi2026/metadata/
+bhi2026/phase4_expert_benchmark/pairs/
+*.xlsx
+bhi2026/phase1/per_document_scores.csv
+bhi2026/phase1_deberta/capstones/per_document_scores.csv
+bhi2026/phase1_deberta/capstones/checkpoint.json
+bhi2026/phase3_method_a/capstone_topics.csv
+bhi2026/phase4_pubmedbert/capstone_topics.csv
+
+# ── PubMed-derived text: re-fetch with fetch_journals.py from the
+#    committed manifest; abstract text itself is not redistributed ─────
+bhi2026/journals/*
+!bhi2026/journals/manifest.json
+bhi2026/phase2_paraphrase/paraphrases.json
+bhi2026/phase3_method_a/journal_topics.csv
+bhi2026/phase4_pubmedbert/journal_topics.csv
+bhi2026/phase6_robustness/out/r2b_journal_topics_2024.csv
+
+# ── Regenerable binaries, caches, logs ─────────────────────────────────
+*.npy
+*.log
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# ── Local-only files (never committed) ─────────────────────────────────
+local/
+
+# ── Manuscript is maintained separately (not part of the code release) ──
+bhi2026/manuscript/

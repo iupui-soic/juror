@@ -1,0 +1,183 @@
+{
+  "retrieval_date_utc": "2026-05-21T05:19:08.243046+00:00",
+  "date_range": [
+    "2020/01/01",
+    "2025/12/31"
+  ],
+  "cap_per_journal": 1500,
+  "journals": [
+    {
+      "key": "JAMIA",
+      "title": "Journal of the American Medical Informatics Association",
+      "tier": "core",
+      "issn": [
+        "1067-5027",
+        "1527-974X"
+      ],
+      "query": "(1067-5027[IS] OR 1527-974X[IS]) AND (\"2020/01/01\"[PDAT] : \"2025/12/31\"[PDAT])",
+      "n_raw": 1708,
+      "n_with_content": 1708,
+      "n_in_window": 1708,
+      "n_kept": 1500,
+      "year_breakdown": {
+        "2020": 250,
+        "2021": 272,
+        "2022": 250,
+        "2023": 250,
+        "2024": 250,
+        "2025": 228
+      }
+    },
+    {
+      "key": "JBI",
+      "title": "Journal of Biomedical Informatics",
+      "tier": "core",
+      "issn": [
+        "1532-0464",
+        "1532-0480"
+      ],
+      "query": "(1532-0464[IS] OR 1532-0480[IS]) AND (\"2020/01/01\"[PDAT] : \"2025/12/31\"[PDAT])",
+      "n_raw": 1270,
+      "n_with_content": 1270,
+      "n_in_window": 1260,
+      "n_kept": 1260,
+      "year_breakdown": {
+        "2020": 212,
+        "2021": 237,
+        "2022": 208,
+        "2023": 235,
+        "2024": 168,
+        "2025": 200
+      }
+    },
+    {
+      "key": "JBHI",
+      "title": "IEEE Journal of Biomedical and Health Informatics",
+      "tier": "core",
+      "issn": [
+        "2168-2194",
+        "2168-2208"
+      ],
+      "query": "(2168-2194[IS] OR 2168-2208[IS]) AND (\"2020/01/01\"[PDAT] : \"2025/12/31\"[PDAT])",
+      "n_raw": 3621,
+      "n_with_content": 3621,
+      "n_in_window": 3621,
+      "n_kept": 1500,
+      "year_breakdown": {
+        "2020": 250,
+        "2021": 250,
+        "2022": 250,
+        "2023": 250,
+        "2024": 250,
+        "2025": 250
+      }
+    },
+    {
+      "key": "IJMI",
+      "title": "International Journal of Medical Informatics",
+      "tier": "core",
+      "issn": [
+        "1386-5056",
+        "1872-8243"
+      ],
+      "query": "(1386-5056[IS] OR 1872-8243[IS]) AND (\"2020/01/01\"[PDAT] : \"2025/12/31\"[PDAT])",
+      "n_raw": 1636,
+      "n_with_content": 1636,
+      "n_in_window": 1502,
+      "n_kept": 1500,
+      "year_breakdown": {
+        "2020": 213,
+        "2021": 218,
+        "2022": 197,
+        "2023": 267,
+        "2024": 277,
+        "2025": 328
+      }
+    },
+    {
+      "key": "ACI",
+      "title": "Applied Clinical Informatics",
+      "tier": "core",
+      "issn": [
+        "1869-0327"
+      ],
+      "query": "(1869-0327[IS]) AND (\"2020/01/01\"[PDAT] : \"2025/12/31\"[PDAT])",
+      "n_raw": 787,
+      "n_with_content": 787,
+      "n_in_window": 787,
+      "n_kept": 787,
+      "year_breakdown": {
+        "2020": 99,
+        "2021": 127,
+        "2022": 127,
+        "2023": 110,
+        "2024": 122,
+        "2025": 202
+      }
+    },
+    {
+      "key": "JMIR",
+      "title": "Journal of Medical Internet Research",
+      "tier": "digital_health",
+      "issn": [
+        "1438-8871"
+      ],
+      "query": "(1438-8871[IS]) AND (\"2020/01/01\"[PDAT] : \"2025/12/31\"[PDAT])",
+      "n_raw": 7099,
+      "n_with_content": 7099,
+      "n_in_window": 7099,
+      "n_kept": 1500,
+      "year_breakdown": {
+        "2020": 250,
+        "2021": 250,
+        "2022": 250,
+        "2023": 250,
+        "2024": 250,
+        "2025": 250
+      }
+    },
+    {
+      "key": "npjDigitalMed",
+      "title": "npj Digital Medicine",
+      "tier": "digital_health",
+      "issn": [
+        "2398-6352"
+      ],
+      "query": "(2398-6352[IS]) AND (\"2020/01/01\"[PDAT] : \"2025/12/31\"[PDAT])",
+      "n_raw": 2035,
+      "n_with_content": 2035,
+      "n_in_window": 2035,
+      "n_kept": 1500,
+      "year_breakdown": {
+        "2020": 161,
+        "2021": 172,
+        "2022": 197,
+        "2023": 239,
+        "2024": 250,
+        "2025": 481
+      }
+    },
+    {
+      "key": "LancetDigitalHealth",
+      "title": "The Lancet. Digital health",
+      "tier": "digital_health",
+      "issn": [
+        "2589-7500"
+      ],
+      "query": "(2589-7500[IS]) AND (\"2020/01/01\"[PDAT] : \"2025/12/31\"[PDAT])",
+      "n_raw": 828,
+      "n_with_content": 828,
+      "n_in_window": 827,
+      "n_kept": 827,
+      "year_breakdown": {
+        "2020": 151,
+        "2021": 139,
+        "2022": 135,
+        "2023": 136,
+        "2024": 145,
+        "2025": 121
+      }
+    }
+  ],
+  "total_kept": 10374
+}

@@ -1,0 +1,9 @@
+capstone_topic,name,n_seed_pairs,r0,r1,r2,mean_rating
+0,0_emr_database_management_frontend,12,3,9,0,0.75
+1,1_hands_[PERSON]_phd_redcap,12,9,3,0,0.25
+2,2_[state]_prenatal_2019_ns,12,5,7,0,0.583
+3,3_symptoms_schizophrenia_reporting_sql,12,4,7,1,0.75
+4,4_spss_depression_statistical_[PERSON],12,2,8,2,1.0
+5,5_pathology_extraction_pathology reports_text,12,2,4,6,1.333
+6,6_course_global_institute_[institution],12,0,10,2,1.167
+7,7_renal_extraction_pathology_pathology reports,12,5,7,0,0.583

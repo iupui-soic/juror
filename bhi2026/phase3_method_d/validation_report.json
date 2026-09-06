@@ -1,0 +1,12 @@
+{
+  "n_flows_rated": 24,
+  "n_flows_with_method_c_overlap": 24,
+  "spearman": 0.712830592684752,
+  "spearman_p": 9.269436837113231e-05,
+  "pearson": 0.7491280712114186,
+  "pearson_p": 2.529450456654893e-05,
+  "method_d_mean_rating": 0.9166666666666666,
+  "method_c_mean_of_means": 0.7821428571428571,
+  "method_d_mass_weighted": 0.8611440215189045,
+  "threshold_pass": true
+}

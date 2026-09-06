@@ -1,0 +1,11 @@
+domain_id,domain_label,2020 (n=16),2021 (n=28),2022 (n=73),2023 (n=100),2024 (n=70)
+D1,Health Sciences,0.0,0.071,0.041,0.05,0.029
+D2,Health Information Science and Technology,0.125,0.143,0.041,0.07,0.114
+D3,Social and Behavioral Aspects of Health,0.062,0.0,0.041,0.0,0.043
+D4,Information Science and Technology,0.0,0.0,0.068,0.02,0.0
+D5,"Data Analytics, Decision-Making, and Discovery",0.312,0.179,0.26,0.41,0.314
+D6,"Leadership, Professionalism, Project Management, Ethics, and Strategic Thinking",0.125,0.393,0.466,0.28,0.314
+D7,Translational Bioinformatics,0.0,0.0,0.014,0.01,0.071
+D8,Clinical Informatics,0.312,0.179,0.055,0.15,0.114
+D9,Public Health Informatics,0.0,0.036,0.014,0.01,0.0
+D10,Consumer Health Informatics,0.062,0.0,0.0,0.0,0.0

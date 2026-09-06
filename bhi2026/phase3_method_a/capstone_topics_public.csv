@@ -1,0 +1,10 @@
+Topic,Count,Name,Representation
+-1,53,-1_study_activities_physical_activity,"['study', 'activities', 'physical', 'activity', 'pregnancy', 'et', 'al', 'et al', '2020', 'figure']"
+0,52,0_emr_database_management_frontend,"['emr', 'database', 'management', 'frontend', 'ai', 'backend', 'mysql', '[ORG]', 'user', 'integration']"
+1,48,1_hands_[PERSON]_phd_redcap,"['hands', '[PERSON]', 'phd', 'redcap', 'center', 'resource', 'individuals', 'interdisciplinary', 'data collection', 'spectrum']"
+2,37,2_[ORG]_prenatal_2019_ns,"['[ORG]', 'prenatal', '2019', 'ns', '2018', 'variables', 'value', 'est', 'diabetes', 'et']"
+3,34,3_symptoms_schizophrenia_reporting_sql,"['symptoms', 'schizophrenia', 'reporting', 'sql', 'user', 'schizophrenic', 'drug', 'questionnaire', 'negative', 'figure']"
+4,19,4_spss_depression_statistical_[PERSON],"['spss', 'depression', 'statistical', '[PERSON]', 'regression', 'sciences', 'mental', 'linear', 'physical', 'variables']"
+5,17,5_pathology_extraction_pathology reports_text,"['pathology', 'extraction', 'pathology reports', 'text', 'pdf', 'unstructured', 'nlp', 'techniques', 'automated', '[PERSON]']"
+6,15,6_course_global_institute_[ORG],"['course', 'global', 'institute', '[ORG]', 'countries', '[ORG] institute', 'global health', 'content', 'academy', 'management']"
+7,13,7_renal_extraction_pathology_pathology reports,"['renal', 'extraction', 'pathology', 'pathology reports', 'parameters', 'data extraction', '[ORG]', 'renal parameters', 'visualizations', '[ORG] [ORG]']"

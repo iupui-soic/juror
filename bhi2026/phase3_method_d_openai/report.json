@@ -1,0 +1,23 @@
+{
+  "openai_model": "gpt-5.4-mini",
+  "claude_model": "claude-sonnet-4-6",
+  "n_flows_both_rated": 24,
+  "exact_agreement": 13,
+  "exact_agreement_rate": 0.5416666666666666,
+  "diff_le_1_rate": 1.0,
+  "spearman_gpt_vs_claude": 0.5521311306870728,
+  "pearson_gpt_vs_claude": 0.5473793384225474,
+  "spearman_p": 0.005151246305937326,
+  "gpt_mean": 1.2083333333333333,
+  "claude_mean": 0.9166666666666666,
+  "gpt_vs_method_c": {
+    "n_matched": 24,
+    "spearman": 0.478622925621172,
+    "pearson": 0.5392494467927923
+  },
+  "claude_vs_method_c": {
+    "n_matched": 24,
+    "spearman": 0.712830592684752,
+    "pearson": 0.7491280712114186
+  }
+}

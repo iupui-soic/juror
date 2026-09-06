@@ -1,0 +1,12 @@
+{
+  "n_capstones": 288,
+  "n_journals": 10374,
+  "n_capstone_topics": 8,
+  "n_journal_topics": 106,
+  "n_capstone_outliers": 53,
+  "n_journal_outliers": 3259,
+  "w1_distance": 0.17093063338293657,
+  "alignment_score_exp": 0.4279559852044192,
+  "scale_used": 0.20139460265636444,
+  "embed_model": "BAAI/bge-large-en-v1.5"
+}

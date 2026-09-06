@@ -1,0 +1,6 @@
+experiment,W1_mean,ci_lo,ci_hi,n
+Observed capstone vs journal,0.1709,,,1 (point estimate)
+Inter-journal pairs (28),0.0919,0.0459,0.1681,28
+Random-split within journals,0.0085,0.007,0.0101,200
+Random-split within capstones,0.0151,0.0075,0.026,200
+Shuffle baseline (journals),0.0349,0.0342,0.0357,200

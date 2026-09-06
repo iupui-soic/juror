@@ -1,0 +1,11 @@
+domain_id,domain_label,mean_sigmoid_score,weighted_share,top1_share,top3_share
+D1,Health Sciences,0.7722,0.0998,0.0418,0.0685
+D2,Health Information Science and Technology,0.8115,0.1049,0.0836,0.1266
+D3,Social and Behavioral Aspects of Health,0.7397,0.0956,0.0244,0.0395
+D4,Information Science and Technology,0.7561,0.0977,0.0244,0.0534
+D5,"Data Analytics, Decision-Making, and Discovery",0.8555,0.1106,0.3206,0.2358
+D6,"Leadership, Professionalism, Project Management, Ethics, and Strategic Thinking",0.8567,0.1107,0.338,0.2509
+D7,Translational Bioinformatics,0.7669,0.0991,0.0244,0.0488
+D8,Clinical Informatics,0.8208,0.1061,0.1289,0.1417
+D9,Public Health Informatics,0.7327,0.0947,0.0105,0.0314
+D10,Consumer Health Informatics,0.6252,0.0808,0.0035,0.0035

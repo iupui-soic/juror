@@ -1,0 +1,25 @@
+capstone_topic,journal_topic,method_d_rating,method_c_n_pairs,method_c_mean,method_c_max,cap_keywords,jrn_keywords,mass
+0,3,0,6,0.8333333333333334,1.0,"emr, database, management, frontend","llms, large language, language models, language",0.030218
+0,5,1,6,0.5,1.0,"emr, database, management, frontend","prediction, disease, temporal, ehr",0.025299
+0,8,1,4,1.0,1.0,"emr, database, management, frontend","ai, intelligence, artificial intelligence, artificial",0.021363
+1,4,0,4,0.0,0.0,"hands, [PERSON], phd, redcap","retinal, images, fundus, diabetic",0.02604
+1,6,1,7,0.5714285714285714,1.0,"hands, [PERSON], phd, redcap","mental, mental health, depression, intervention",0.024596
+1,7,0,4,0.0,0.0,"hands, [PERSON], phd, redcap","gait, pd, parkinsons, parkinsons disease",0.024034
+2,0,1,6,0.6666666666666666,1.0,"[state], prenatal, 2019, ns","covid19, pandemic, covid19 pandemic, telehealth",0.123682
+2,27,1,4,0.5,1.0,"[state], prenatal, 2019, ns","risk, diabetes, prediction, machine",0.009276
+2,41,0,4,0.5,1.0,"[state], prenatal, 2019, ns","sepsis, early, mortality, icu",0.007309
+3,2,1,5,0.8,2.0,"symptoms, schizophrenia, reporting, sql","cds, alert, alerts, decision support",0.031904
+3,14,1,5,0.4,1.0,"symptoms, schizophrenia, reporting, sql","diabetes, intervention, interventions, adherence",0.015601
+3,21,1,4,0.75,1.0,"symptoms, schizophrenia, reporting, sql","portal, patient portal, portals, patient portals",0.010119
+4,1,1,4,0.75,1.0,"spss, depression, statistical, [PERSON]","social, media, social media, online",0.037105
+4,15,2,4,1.0,1.0,"spss, depression, statistical, [PERSON]","sleep, depression, mental, mental health",0.015179
+4,23,1,4,1.25,2.0,"spss, depression, statistical, [PERSON]","physical activity, activity, physical, intervention",0.009698
+5,16,2,4,1.5,2.0,"pathology, extraction, pathology reports, text","biomedical, entity, relation, extraction",0.014617
+5,12,0,4,0.5,1.0,"pathology, extraction, pathology reports, text","segmentation, image, tumor, images",0.012912
+5,18,2,4,2.0,2.0,"pathology, extraction, pathology reports, text","nlp, notes, deidentification, language",0.011103
+6,17,1,4,1.25,2.0,"course, global, institute, [institution]","digital health, digital, equity, health equity",0.012228
+6,28,1,4,1.0,1.0,"course, global, institute, [institution]","consent, health data, sharing, data sharing",0.009136
+6,29,2,4,1.25,2.0,"course, global, institute, [institution]","informatics, programs, competencies, clinical informatics",0.008454
+7,10,0,4,0.25,1.0,"renal, extraction, pathology, pathology reports","drug, graph, drugs, protein",0.020801
+7,25,1,4,1.0,1.0,"renal, extraction, pathology, pathology reports","radiomics, cancer, features, survival",0.009557
+7,35,1,4,0.5,1.0,"renal, extraction, pathology, pathology reports","gene, genes, cancer, expression",0.008011

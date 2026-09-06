@@ -1,0 +1,56 @@
+{
+  "_source": "Adapted from Valenta et al., 'AMIA Board White Paper: AMIA 2017 core competencies for applied health informatics education at the master's degree level', JAMIA 25(12):1657-1668, 2018.",
+  "_note": "Each domain has a short label (used as the zero-shot class name) and a longer description used as the hypothesis for NLI-based zero-shot classification (e.g. 'This work is about ...').",
+  "domains": [
+    {
+      "id": "D1",
+      "label": "Health Sciences",
+      "description": "Clinical foundations, anatomy, physiology, disease processes, pharmacology, and the structure of healthcare delivery; biomedical knowledge needed to understand patient care contexts."
+    },
+    {
+      "id": "D2",
+      "label": "Health Information Science and Technology",
+      "description": "Electronic health records, clinical information systems, interoperability standards such as HL7 FHIR, health information exchange, terminology standards like SNOMED and ICD, and implementation of health IT in care delivery."
+    },
+    {
+      "id": "D3",
+      "label": "Social and Behavioral Aspects of Health",
+      "description": "Patient behavior, social determinants of health, health disparities, cultural competence, user-centered design of health systems, organizational change in healthcare, and human factors in clinical workflows."
+    },
+    {
+      "id": "D4",
+      "label": "Information Science and Technology",
+      "description": "Core computing concepts including databases, software engineering, networks, cybersecurity, cloud platforms, web and mobile development, and information architecture independent of clinical domain."
+    },
+    {
+      "id": "D5",
+      "label": "Data Analytics, Decision-Making, and Discovery",
+      "description": "Statistical analysis, machine learning, data mining, predictive modeling, natural language processing, knowledge discovery, data visualization, and decision support derived from health and biomedical data."
+    },
+    {
+      "id": "D6",
+      "label": "Leadership, Professionalism, Project Management, Ethics, and Strategic Thinking",
+      "description": "Project management, leadership and team management, ethics and privacy regulations such as HIPAA, professionalism, change management, communication, and strategic planning for informatics initiatives."
+    },
+    {
+      "id": "D7",
+      "label": "Translational Bioinformatics",
+      "description": "Genomics, proteomics, precision medicine, integration of molecular and clinical data, and informatics support for translating bench research into bedside applications."
+    },
+    {
+      "id": "D8",
+      "label": "Clinical Informatics",
+      "description": "Clinical decision support, computerized provider order entry, clinical documentation, workflow analysis in clinical settings, quality improvement using informatics, and physician-facing health IT applications."
+    },
+    {
+      "id": "D9",
+      "label": "Public Health Informatics",
+      "description": "Population-level health surveillance, disease registries, public health reporting, environmental and community health data, outbreak detection, and informatics systems supporting public health agencies."
+    },
+    {
+      "id": "D10",
+      "label": "Consumer Health Informatics",
+      "description": "Patient portals, personal health records, mobile health and wellness apps, wearable devices, telehealth, patient education materials, and informatics tools designed for use by patients and caregivers rather than clinicians."
+    }
+  ]
+}

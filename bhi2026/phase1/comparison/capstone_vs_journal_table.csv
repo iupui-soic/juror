@@ -1,0 +1,11 @@
+domain_id,domain_label,capstone_top1,journal_top1,delta_capstone_minus_journal
+D1,Health Sciences,0.0418,0.0313,0.0105
+D2,Health Information Science and Technology,0.0836,0.0477,0.0359
+D3,Social and Behavioral Aspects of Health,0.0244,0.0028,0.0216
+D4,Information Science and Technology,0.0244,0.0005,0.0239
+D5,"Data Analytics, Decision-Making, and Discovery",0.3206,0.6513,-0.3307
+D6,"Leadership, Professionalism, Project Management, Ethics, and Strategic Thinking",0.338,0.2329,0.1051
+D7,Translational Bioinformatics,0.0244,0.0019,0.0225
+D8,Clinical Informatics,0.1289,0.0102,0.1187
+D9,Public Health Informatics,0.0105,0.0068,0.0037
+D10,Consumer Health Informatics,0.0035,0.0145,-0.011
