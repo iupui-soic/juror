@@ -1,0 +1,12 @@
+{
+  "n_new": 32,
+  "offset_new": 0.25,
+  "within1_new": 0.96875,
+  "spearman_new": 0.5742486148630563,
+  "n_pooled": 56,
+  "offset_pooled": 0.26785714285714285,
+  "within1_pooled": 0.9821428571428571,
+  "spearman_pooled": 0.5695869619441785,
+  "claude_ge3_pooled": 1,
+  "gpt_ge3_pooled": 2
+}

@@ -1,0 +1,78 @@
+{
+  "n_edges": 71,
+  "n_btm_zero": 47,
+  "frac_btm_zero": 0.6619718309859155,
+  "btm_median": 0.0,
+  "btm_max": 0.7647058823529411,
+  "per_capstone_topic": [
+    {
+      "topic": 0,
+      "docs": 52,
+      "btm_nonzero": 8,
+      "ot_nonzero": 27
+    },
+    {
+      "topic": 1,
+      "docs": 48,
+      "btm_nonzero": 4,
+      "ot_nonzero": 23
+    },
+    {
+      "topic": 2,
+      "docs": 37,
+      "btm_nonzero": 14,
+      "ot_nonzero": 7
+    },
+    {
+      "topic": 3,
+      "docs": 34,
+      "btm_nonzero": 11,
+      "ot_nonzero": 21
+    },
+    {
+      "topic": 4,
+      "docs": 19,
+      "btm_nonzero": 8,
+      "ot_nonzero": 7
+    },
+    {
+      "topic": 5,
+      "docs": 17,
+      "btm_nonzero": 3,
+      "ot_nonzero": 9
+    },
+    {
+      "topic": 6,
+      "docs": 15,
+      "btm_nonzero": 7,
+      "ot_nonzero": 11
+    },
+    {
+      "topic": 7,
+      "docs": 13,
+      "btm_nonzero": 5,
+      "ot_nonzero": 8
+    }
+  ],
+  "c5_j22": {
+    "btm_strength": 0.0,
+    "btm_destinations": [
+      [
+        18,
+        0.7647058823529411
+      ],
+      [
+        1,
+        0.058823529411764705
+      ],
+      [
+        94,
+        0.058823529411764705
+      ]
+    ],
+    "ot_rank": 4
+  },
+  "spearman_btm_vs_rating": 0.35176508706392867,
+  "spearman_cosine_vs_rating": 0.7490388081083923,
+  "caveat": "target is JUROR's own rating; BTM-vs-cosine contrast unaffected"
+}

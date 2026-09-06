@@ -1,0 +1,59 @@
+{
+  "n_flows": 24,
+  "runs": {
+    "1": {
+      "dist": {
+        "0": 6,
+        "1": 14,
+        "2": 4
+      },
+      "mean": 0.9166666666666666,
+      "n_ge3": 0,
+      "spearman_vs_method_c": 0.712830592684752,
+      "pearson_vs_method_c": 0.7491280712114186
+    },
+    "2": {
+      "dist": {
+        "0": 6,
+        "1": 14,
+        "2": 4
+      },
+      "mean": 0.9166666666666666,
+      "n_ge3": 0,
+      "spearman_vs_method_c": 0.712830592684752,
+      "pearson_vs_method_c": 0.7491280712114186
+    },
+    "3": {
+      "dist": {
+        "0": 7,
+        "1": 13,
+        "2": 4
+      },
+      "mean": 0.875,
+      "n_ge3": 0,
+      "spearman_vs_method_c": 0.6335078795274804,
+      "pearson_vs_method_c": 0.6906645594052865
+    }
+  },
+  "pairwise": {
+    "run1_vs_run2": {
+      "exact": 1.0,
+      "within1": 1.0,
+      "spearman": 1.0
+    },
+    "run1_vs_run3": {
+      "exact": 0.9583333333333334,
+      "within1": 1.0,
+      "spearman": 0.9484014132432065
+    },
+    "run2_vs_run3": {
+      "exact": 0.9583333333333334,
+      "within1": 1.0,
+      "spearman": 0.9484014132432065
+    }
+  },
+  "icc_single_call": 0.9683631361760662,
+  "icc_mean_of_runs": 0.9892271662763467,
+  "n_runs": 3,
+  "mean_of_runs_vs_method_c_spearman": 0.6638113718150666
+}

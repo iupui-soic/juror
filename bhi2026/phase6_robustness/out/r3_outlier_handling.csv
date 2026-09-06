@@ -1,0 +1,5 @@
+scenario,w1,alignment,jrn_outlier_pct,n_flows,shared_with_paper,jaccard
+S0_drop,0.1709,0.428,31.4,24,24,1.0
+S1_nearest,0.151,0.4408,0.0,24,18,0.6
+S2_nearest_p10,0.1582,0.434,6.4,24,18,0.6
+S3_outlier_as_topic,0.1426,0.4782,31.4,27,19,0.594
